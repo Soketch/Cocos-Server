@@ -20,7 +20,10 @@ find_package(Boost REQUIRED)
 if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIRS})
 endif()
-
+find_package(OpenSSL REQUIRED)
+if(OPENSSL_FOUND)
+    include_directories(${OPENSSL_INCLUDE_DIR})
+endif()
 
 set(LIB_SRC
     log/log.cpp 
@@ -32,6 +35,8 @@ set(LIB_SRC
     ceros/fiber.cpp 
     ceros/mutex.cpp 
     ceros/scheduler.cpp 
+    
+    utils/util/crypto_util.cpp
 )
 
 add_library(cero_server SHARED ${LIB_SRC})
@@ -40,6 +45,7 @@ force_redefine_file_macro_for_sources(cero_server)
 
 set(LIBS
         cero_server
+        ${OPENSSL_LIBRARIES}
         yaml-cpp
         jsoncpp
         event
@@ -57,9 +63,15 @@ SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 ##  测试test-build
 if(BUILD_TEST)
+cero_add_executable(test_log "tests/test_log.cpp" cero_server "${LIBS}")
+
+elseif(
+
+)
 endif()
 
 
-cero_add_executable(test_log "tests/test_log.cpp" cero_server "${LIBS}")
 
+
+cero_add_executable(test_crypto "tests/test_crypher.cpp" cero_server "${LIBS}")
 

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cero_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/coding/cpp/Cocos-Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cero_server">
+				<Option output="/home/coding/cpp/Cocos-Server/lib/libcero_server.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coding/cpp/Cocos-Server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/coding/cpp/Cocos-Server/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 cero_server"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cero_server/fast">
+				<Option output="/home/coding/cpp/Cocos-Server/lib/libcero_server.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coding/cpp/Cocos-Server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/coding/cpp/Cocos-Server/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 cero_server/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_crypto">
+				<Option output="/home/coding/cpp/Cocos-Server/bin/test_crypto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coding/cpp/Cocos-Server/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/coding/cpp/Cocos-Server/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_crypto"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_crypto/fast">
+				<Option output="/home/coding/cpp/Cocos-Server/bin/test_crypto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/coding/cpp/Cocos-Server/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/coding/cpp/Cocos-Server/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_crypto/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/coding/cpp/Cocos-Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/coding/cpp/Cocos-Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/coding/cpp/Cocos-Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/coding/cpp/Cocos-Server/ceros/fiber.cpp">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/ceros/fiber.h">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/ceros/mutex.cpp">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/ceros/mutex.h">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/ceros/scheduler.cpp">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/ceros/scheduler.h">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/ceros/thread.cpp">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/ceros/thread.h">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/config/config.cpp">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/config/config.h">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/config/env.cpp">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/config/env.h">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/log/log.cpp">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/log/log.h">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/tests/test_crypher.cpp">
+			<Option target="test_crypto"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/utils/util.cpp">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/utils/util.h">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/utils/util/crypto_util.cpp">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/utils/util/crypto_util.h">
+			<Option target="cero_server"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/coding/cpp/Cocos-Server/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

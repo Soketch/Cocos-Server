@@ -1,7 +1,7 @@
 #include "scheduler.h"
 #include "log/log.h"
 #include "utils/macro.h"
-#include "network/hook.h"
+//#include "network/hook.h"
 namespace cero
 {
 
@@ -155,7 +155,7 @@ namespace cero
     void Scheduler::run()
     {
         LOG_DEBUG(g_logger) << m_name << " run";
-        set_hook_enable(true);
+        // set_hook_enable(true);
         setThis();
         if (cero::GetThreadId() != m_rootThread)
         {
